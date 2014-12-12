@@ -1,0 +1,54 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_112917\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -K 1 -c SCOTT.Sub_Partitioned_test_from -S part_15_sp1 -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
+ora2mysql
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+MYSQL
+####################
+Performing data copy.
+		
+From Oracle:	
+	from db: SCOTT@orcl
+	table: SCOTT.Sub_Partitioned_test_from
+	sub-partition: part_15_sp1
+	shards:	1
+		
+		
+	To MySQL:	
+		to db: alex/test/localhost
+		to table: Timestamp_test_to
+		
+####################
+Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113006_903000\sql\get_table_info_SCOTT.Sub_Partitioned_test_from..sql
+c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113006_903000\sql\get_part_info_SCOTT.Sub_Partitioned_test_from.part_15_sp1.sql
+c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113006_903000\sql\get_query_columns.sql
+Thread-0 (0, 5189L, 43)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+2014-12-12 11:30:06,913 - #StopRussia - INFO - Fetching table info...
+2014-12-12 11:30:06,983 - #StopRussia - INFO - Done.
+2014-12-12 11:30:06,983 - #StopRussia - INFO - Verifying sub-partition...
+2014-12-12 11:30:07,062 - #StopRussia - INFO - Done.
+2014-12-12 11:30:07,062 - #StopRussia - INFO - Fetching column info...
+2014-12-12 11:30:07,154 - #StopRussia - INFO - Done.
+2014-12-12 11:30:07,154 - #StopRussia - INFO - Starting Thread-0
+2014-12-12 11:30:07,154 - #StopRussia - INFO - Thread-0 processing Shard-0
+2014-12-12 11:30:07,154 - #StopRussia - INFO - Extracting data...
+2014-12-12 11:30:07,233 - #StopRussia - INFO - Done
+2014-12-12 11:30:07,233 - #StopRussia - INFO - Loading data...
+Warning: Using a password on the command line interface can be insecure.
+2014-12-12 11:30:07,355 - #StopRussia - INFO - Done
+2014-12-12 11:30:07,355 - #StopRussia - INFO - keeping spool file.
+2014-12-12 11:30:07,355 - #StopRussia - INFO - Thread-0 exit status 0
+2014-12-12 11:30:07,355 - #StopRussia - INFO - Exiting Thread-0
+2014-12-12 11:30:07,355 - #StopRussia - INFO - Shard-0/0:          43 rows
+2014-12-12 11:30:07,355 - #StopRussia - INFO - TOTAL Bytes:        5189 Bytes
+2014-12-12 11:30:07,355 - #StopRussia - INFO - TOTAL Rows:           43 Rows
+2014-12-12 11:30:07,355 - #StopRussia - INFO - Done.
+2014-12-12 11:30:07,355 - #StopRussia - INFO - Elapsed: 00:00:00

@@ -1,0 +1,51 @@
+
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe -w ora2mysql -o 1 -r 1 -t "|" -K 1 -c SCOTT.Timestamp_test_from -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
+ora2mysql
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+MYSQL
+####################
+Performing data copy.
+		
+From Oracle:	
+	from db: SCOTT@orcl
+	table: SCOTT.Timestamp_test_from
+	shards:	1
+		
+		
+	To MySQL:	
+		to db: alex/test/localhost
+		to table: Timestamp_test_to
+		
+####################
+Are you sure you want to proceed?(y/n): 
+c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112941_476000\sql\get_table_info_SCOTT.Timestamp_test_from..sql
+c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112941_476000\sql\get_query_columns.sql
+Thread-0 (0, 5304L, 44)
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+2014-12-12 11:29:41,496 - #FreeUkraine - INFO - Fetching table info...
+2014-12-12 11:29:41,760 - #FreeUkraine - INFO - Done.
+2014-12-12 11:29:41,760 - #FreeUkraine - INFO - Fetching column info...
+2014-12-12 11:29:41,901 - #FreeUkraine - INFO - Done.
+2014-12-12 11:29:41,901 - #FreeUkraine - INFO - Starting Thread-0
+2014-12-12 11:29:41,911 - #FreeUkraine - INFO - Thread-0 processing Shard-0
+2014-12-12 11:29:41,921 - #FreeUkraine - INFO - Extracting data...
+2014-12-12 11:29:42,010 - #FreeUkraine - INFO - Done
+2014-12-12 11:29:42,010 - #FreeUkraine - INFO - Loading data...
+Warning: Using a password on the command line interface can be insecure.
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - Done
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - keeping spool file.
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - Thread-0 exit status 0
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - Exiting Thread-0
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - Shard-0/0:          44 rows
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - TOTAL Bytes:        5304 Bytes
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - TOTAL Rows:           44 Rows
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - Done.
+2014-12-12 11:29:42,161 - #FreeUkraine - INFO - Elapsed: 00:00:00
