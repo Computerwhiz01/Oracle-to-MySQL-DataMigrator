@@ -1,10 +1,10 @@
 
-c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe -w ora2mysql -o 3 -r 3 -t "|" -c SCOTT.Partitioned_test_from -P part_15 -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe -w ora2mysql -o 3 -r 3 -t "|" -c SCOTT.Partitioned_test_from -P part_15 -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
 ora2mysql
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [64bit]
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [64bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -24,36 +24,36 @@ From Oracle:
 		to table: Timestamp_test_to
 		
 ####################
-Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112929_503000\sql\get_table_info_SCOTT.Partitioned_test_from.part_15.sql
-c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112929_503000\sql\get_part_info_SCOTT.Partitioned_test_from.part_15.sql
-c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112929_503000\sql\sharding_Partitioned_test_from.sql
-c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112929_503000\sql\get_query_columns.sql
-Thread-1 (0, 5189L, 43)
+Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135032_878000\sql\get_table_info_SCOTT.Partitioned_test_from.part_15.sql
+c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135032_878000\sql\get_part_info_SCOTT.Partitioned_test_from.part_15.sql
+c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135032_878000\sql\sharding_Partitioned_test_from.sql
+c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135032_878000\sql\get_query_columns.sql
+Thread-0 (0, 5189L, 43)
 ############################################################
 Copy stats (3 threads, 3 shards):
 ############################################################
-2014-12-12 11:29:29,513 - #FreeUkraine - INFO - Fetching table info...
-2014-12-12 11:29:29,868 - #FreeUkraine - INFO - Done.
-2014-12-12 11:29:29,868 - #FreeUkraine - INFO - Verifying partition...
-2014-12-12 11:29:30,190 - #FreeUkraine - INFO - Done.
-2014-12-12 11:29:30,661 - #FreeUkraine - INFO - Fetching column info...
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Done.
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Starting Thread-0
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Starting Thread-1
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Starting Thread-2
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Thread-1 processing Shard-0
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Exiting Thread-0
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Exiting Thread-2
-2014-12-12 11:29:30,921 - #FreeUkraine - INFO - Extracting data...
-2014-12-12 11:29:31,121 - #FreeUkraine - INFO - Done
-2014-12-12 11:29:31,121 - #FreeUkraine - INFO - Loading data...
+2014-12-12 13:50:32,908 - #FreeUkraine - INFO - Fetching table info...
+2014-12-12 13:50:33,236 - #FreeUkraine - INFO - Done.
+2014-12-12 13:50:33,236 - #FreeUkraine - INFO - Verifying partition...
+2014-12-12 13:50:33,549 - #FreeUkraine - INFO - Done.
+2014-12-12 13:50:33,845 - #FreeUkraine - INFO - Fetching column info...
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Done.
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Starting Thread-0
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Starting Thread-1
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Starting Thread-2
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Thread-0 processing Shard-0
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Exiting Thread-1
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Exiting Thread-2
+2014-12-12 13:50:34,078 - #FreeUkraine - INFO - Extracting data...
+2014-12-12 13:50:34,469 - #FreeUkraine - INFO - Done
+2014-12-12 13:50:34,469 - #FreeUkraine - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - Done
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - spool file deleted.
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - Thread-1 exit status 0
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - Exiting Thread-1
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - Shard-0/0:          43 rows
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - TOTAL Bytes:        5189 Bytes
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - TOTAL Rows:           43 Rows
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - Done.
-2014-12-12 11:29:31,813 - #FreeUkraine - INFO - Elapsed: 00:00:02
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - Done
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - spool file deleted.
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - Thread-0 exit status 0
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - Exiting Thread-0
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - Shard-0/0:          43 rows
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - TOTAL Bytes:        5189 Bytes
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - TOTAL Rows:           43 Rows
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - Done.
+2014-12-12 13:50:34,828 - #FreeUkraine - INFO - Elapsed: 00:00:01

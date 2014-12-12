@@ -1,10 +1,10 @@
 
-c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_112917\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -l 10 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_135017\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -l 10 -Q c:\Python27\data_migrator_1239\test\v101\query\query_dir_ora -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
 ora2mysql
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [32bit]
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [32bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -23,52 +23,52 @@ From Oracle:
 		to table: Timestamp_test_to
 		
 ####################
-Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113002_470000\sql\get_query_columns.sql
-c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113002_470000\sql\get_query_columns.sql
-c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113002_470000\sql\get_query_columns.sql
+Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135100_891000\sql\get_query_columns.sql
+c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135100_891000\sql\get_query_columns.sql
+c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135100_891000\sql\get_query_columns.sql
 Thread-0 (0, 1134L, 10)
 Thread-0 (0, 1134L, 10)
 Thread-0 (0, 1134L, 10)
 ############################################################
 Copy stats (1 threads, 3 shards):
 ############################################################
-2014-12-12 11:30:02,470 - #SaveUkraine - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
-2014-12-12 11:30:02,619 - #SaveUkraine - INFO - Fetching column info...
-2014-12-12 11:30:02,869 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:02,869 - #SaveUkraine - INFO - Fetching column info...
-2014-12-12 11:30:02,980 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:02,980 - #SaveUkraine - INFO - Fetching column info...
-2014-12-12 11:30:03,079 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:03,079 - #SaveUkraine - INFO - Starting Thread-0
-2014-12-12 11:30:03,079 - #SaveUkraine - INFO - Thread-0 processing Shard-0
-2014-12-12 11:30:03,089 - #SaveUkraine - INFO - Extracting data...
-2014-12-12 11:30:03,609 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:03,609 - #SaveUkraine - INFO - Loading data...
+2014-12-12 13:51:00,907 - #PutinKhuilo - WARNING - Overriding num_of_shards (1) to be equal number of queries (3).
+2014-12-12 13:51:00,907 - #PutinKhuilo - INFO - Fetching column info...
+2014-12-12 13:51:00,969 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:51:00,969 - #PutinKhuilo - INFO - Fetching column info...
+2014-12-12 13:51:01,203 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:51:01,203 - #PutinKhuilo - INFO - Fetching column info...
+2014-12-12 13:51:01,312 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:51:01,312 - #PutinKhuilo - INFO - Starting Thread-0
+2014-12-12 13:51:01,312 - #PutinKhuilo - INFO - Thread-0 processing Shard-0
+2014-12-12 13:51:01,328 - #PutinKhuilo - INFO - Extracting data...
+2014-12-12 13:51:01,390 - #PutinKhuilo - INFO - Done
+2014-12-12 13:51:01,390 - #PutinKhuilo - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:30:04,421 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:04,421 - #SaveUkraine - INFO - spool file deleted.
-2014-12-12 11:30:04,421 - #SaveUkraine - INFO - Thread-0 exit status 0
-2014-12-12 11:30:04,421 - #SaveUkraine - INFO - Thread-0 processing Shard-1
-2014-12-12 11:30:04,421 - #SaveUkraine - INFO - Extracting data...
-2014-12-12 11:30:04,846 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:04,846 - #SaveUkraine - INFO - Loading data...
+2014-12-12 13:51:01,500 - #PutinKhuilo - INFO - Done
+2014-12-12 13:51:01,500 - #PutinKhuilo - INFO - spool file deleted.
+2014-12-12 13:51:01,500 - #PutinKhuilo - INFO - Thread-0 exit status 0
+2014-12-12 13:51:01,500 - #PutinKhuilo - INFO - Thread-0 processing Shard-1
+2014-12-12 13:51:01,500 - #PutinKhuilo - INFO - Extracting data...
+2014-12-12 13:51:01,562 - #PutinKhuilo - INFO - Done
+2014-12-12 13:51:01,562 - #PutinKhuilo - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:30:04,976 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:04,976 - #SaveUkraine - INFO - spool file deleted.
-2014-12-12 11:30:04,976 - #SaveUkraine - INFO - Thread-0 exit status 0
-2014-12-12 11:30:04,976 - #SaveUkraine - INFO - Thread-0 processing Shard-2
-2014-12-12 11:30:04,976 - #SaveUkraine - INFO - Extracting data...
-2014-12-12 11:30:05,026 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:05,026 - #SaveUkraine - INFO - Loading data...
+2014-12-12 13:51:01,671 - #PutinKhuilo - INFO - Done
+2014-12-12 13:51:01,671 - #PutinKhuilo - INFO - spool file deleted.
+2014-12-12 13:51:01,671 - #PutinKhuilo - INFO - Thread-0 exit status 0
+2014-12-12 13:51:01,671 - #PutinKhuilo - INFO - Thread-0 processing Shard-2
+2014-12-12 13:51:01,671 - #PutinKhuilo - INFO - Extracting data...
+2014-12-12 13:51:01,717 - #PutinKhuilo - INFO - Done
+2014-12-12 13:51:01,717 - #PutinKhuilo - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - spool file deleted.
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Thread-0 exit status 0
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Exiting Thread-0
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Shard-0/0:          10 rows
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Shard-1/0:          10 rows
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Shard-2/0:          10 rows
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - TOTAL Bytes:        3402 Bytes
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - TOTAL Rows:           30 Rows
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:05,117 - #SaveUkraine - INFO - Elapsed: 00:00:02
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Done
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - spool file deleted.
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Thread-0 exit status 0
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Exiting Thread-0
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Shard-0/0:          10 rows
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Shard-1/0:          10 rows
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Shard-2/0:          10 rows
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - TOTAL Bytes:        3402 Bytes
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - TOTAL Rows:           30 Rows
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:51:01,842 - #PutinKhuilo - INFO - Elapsed: 00:00:00

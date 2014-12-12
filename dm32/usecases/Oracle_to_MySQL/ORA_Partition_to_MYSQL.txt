@@ -19,7 +19,7 @@ Use case name: ORA_Partition->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_32\20141212_112917\dm32\dm32.exe ^
+	  echo y|c:\Python27\dm_dist_32\20141212_135017\dm32\dm32.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^

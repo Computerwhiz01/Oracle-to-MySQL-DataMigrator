@@ -1,10 +1,10 @@
 
-c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe -w ora2mysql -o 1 -r 1 -t "|" -K 1 -c SCOTT.Sub_Partitioned_test_from -S part_15_sp1 -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe -w ora2mysql -o 1 -r 1 -t "|" -K 1 -c SCOTT.Sub_Partitioned_test_from -S part_15_sp1 -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
 ora2mysql
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [64bit]
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [64bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -24,31 +24,31 @@ From Oracle:
 		to table: Timestamp_test_to
 		
 ####################
-Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112942_282000\sql\get_table_info_SCOTT.Sub_Partitioned_test_from..sql
-c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112942_282000\sql\get_part_info_SCOTT.Sub_Partitioned_test_from.part_15_sp1.sql
-c:\Python27\DM_DIS~2\20D9E0~1\dm64\logs\20141212_112942_282000\sql\get_query_columns.sql
+Are you sure you want to proceed?(y/n): c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135043_211000\sql\get_table_info_SCOTT.Sub_Partitioned_test_from..sql
+c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135043_211000\sql\get_part_info_SCOTT.Sub_Partitioned_test_from.part_15_sp1.sql
+c:\Python27\DM_DIS~2\205564~1\dm64\logs\20141212_135043_211000\sql\get_query_columns.sql
 Thread-0 (0, 5189L, 43)
 ############################################################
 Copy stats (1 threads, 1 shards):
 ############################################################
-2014-12-12 11:29:42,752 - #SaveUkraine - INFO - Fetching table info...
-2014-12-12 11:29:43,233 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:43,233 - #SaveUkraine - INFO - Verifying sub-partition...
-2014-12-12 11:29:43,496 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:43,496 - #SaveUkraine - INFO - Fetching column info...
-2014-12-12 11:29:43,790 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:43,790 - #SaveUkraine - INFO - Starting Thread-0
-2014-12-12 11:29:43,790 - #SaveUkraine - INFO - Thread-0 processing Shard-0
-2014-12-12 11:29:43,790 - #SaveUkraine - INFO - Extracting data...
-2014-12-12 11:29:43,881 - #SaveUkraine - INFO - Done
-2014-12-12 11:29:43,881 - #SaveUkraine - INFO - Loading data...
+2014-12-12 13:50:43,210 - #PutinKhuilo - INFO - Fetching table info...
+2014-12-12 13:50:43,289 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:50:43,289 - #PutinKhuilo - INFO - Verifying sub-partition...
+2014-12-12 13:50:43,367 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:50:43,367 - #PutinKhuilo - INFO - Fetching column info...
+2014-12-12 13:50:43,460 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:50:43,460 - #PutinKhuilo - INFO - Starting Thread-0
+2014-12-12 13:50:43,460 - #PutinKhuilo - INFO - Thread-0 processing Shard-0
+2014-12-12 13:50:43,460 - #PutinKhuilo - INFO - Extracting data...
+2014-12-12 13:50:43,539 - #PutinKhuilo - INFO - Done
+2014-12-12 13:50:43,539 - #PutinKhuilo - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - Done
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - keeping spool file.
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - Thread-0 exit status 0
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - Exiting Thread-0
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - Shard-0/0:          43 rows
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - TOTAL Bytes:        5189 Bytes
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - TOTAL Rows:           43 Rows
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:44,101 - #SaveUkraine - INFO - Elapsed: 00:00:01
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - Done
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - keeping spool file.
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - Thread-0 exit status 0
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - Exiting Thread-0
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - Shard-0/0:          43 rows
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - TOTAL Bytes:        5189 Bytes
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - TOTAL Rows:           43 Rows
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - Done.
+2014-12-12 13:50:43,803 - #PutinKhuilo - INFO - Elapsed: 00:00:00

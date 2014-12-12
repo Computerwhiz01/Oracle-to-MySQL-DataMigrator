@@ -18,7 +18,7 @@
 ::	-a[--to_table] is "Target table."
 ::	-Z[--target_client_home] is "Path to mysql client home."	
 	
-echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
 -w ora2mysql ^
 -o 1 ^
 -r 1 ^

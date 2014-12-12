@@ -1,10 +1,10 @@
 
-c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_112917\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -K 1 -c SCOTT.Timestamp_test_from -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_135017\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -K 1 -c SCOTT.Timestamp_test_from -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Timestamp_test_to -Z "C:\Temp\mysql\bin" 
 ora2mysql
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [32bit]
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [32bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -24,28 +24,28 @@ From Oracle:
 		
 ####################
 Are you sure you want to proceed?(y/n): 
-c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113006_136000\sql\get_table_info_SCOTT.Timestamp_test_from..sql
-c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_113006_136000\sql\get_query_columns.sql
+c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135103_201000\sql\get_table_info_SCOTT.Timestamp_test_from..sql
+c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135103_201000\sql\get_query_columns.sql
 Thread-0 (0, 5304L, 44)
 ############################################################
 Copy stats (1 threads, 1 shards):
 ############################################################
-2014-12-12 11:30:06,135 - #SaveUkraine - INFO - Fetching table info...
-2014-12-12 11:30:06,226 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:06,226 - #SaveUkraine - INFO - Fetching column info...
-2014-12-12 11:30:06,400 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:06,400 - #SaveUkraine - INFO - Starting Thread-0
-2014-12-12 11:30:06,400 - #SaveUkraine - INFO - Thread-0 processing Shard-0
-2014-12-12 11:30:06,440 - #SaveUkraine - INFO - Extracting data...
-2014-12-12 11:30:06,503 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:06,503 - #SaveUkraine - INFO - Loading data...
+2014-12-12 13:51:03,232 - #FreeUkraine - INFO - Fetching table info...
+2014-12-12 13:51:03,716 - #FreeUkraine - INFO - Done.
+2014-12-12 13:51:03,716 - #FreeUkraine - INFO - Fetching column info...
+2014-12-12 13:51:03,809 - #FreeUkraine - INFO - Done.
+2014-12-12 13:51:03,809 - #FreeUkraine - INFO - Starting Thread-0
+2014-12-12 13:51:03,809 - #FreeUkraine - INFO - Thread-0 processing Shard-0
+2014-12-12 13:51:03,825 - #FreeUkraine - INFO - Extracting data...
+2014-12-12 13:51:03,918 - #FreeUkraine - INFO - Done
+2014-12-12 13:51:03,918 - #FreeUkraine - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - Done
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - keeping spool file.
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - Thread-0 exit status 0
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - Exiting Thread-0
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - Shard-0/0:          44 rows
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - TOTAL Bytes:        5304 Bytes
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - TOTAL Rows:           44 Rows
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - Done.
-2014-12-12 11:30:06,842 - #SaveUkraine - INFO - Elapsed: 00:00:00
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - Done
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - keeping spool file.
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - Thread-0 exit status 0
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - Exiting Thread-0
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - Shard-0/0:          44 rows
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - TOTAL Bytes:        5304 Bytes
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - TOTAL Rows:           44 Rows
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - Done.
+2014-12-12 13:51:04,121 - #FreeUkraine - INFO - Elapsed: 00:00:00

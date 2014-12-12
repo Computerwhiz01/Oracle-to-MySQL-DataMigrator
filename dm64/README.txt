@@ -4,7 +4,7 @@
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [64bit]
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [64bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -100,7 +100,7 @@ Use case name: ORA_DateTable->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -141,7 +141,7 @@ Use case name: ORA_Partition_KeepSpoolFile->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -184,7 +184,7 @@ Use case name: ORA_Partition_Limit10->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -226,7 +226,7 @@ Use case name: ORA_Partition->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -268,7 +268,7 @@ Use case name: ORA_QueryDir_Limit10->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -309,7 +309,7 @@ Use case name: ORA_QueryDir->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -350,7 +350,7 @@ Use case name: ORA_QueryFile_Limit10->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -391,7 +391,7 @@ Use case name: ORA_QueryFile->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -433,7 +433,7 @@ Use case name: ORA_ShardedPartition->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 3 ^
   -r 3 ^
@@ -476,7 +476,7 @@ Use case name: ORA_ShardedSubpartition->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 3 ^
   -r 3 ^
@@ -518,7 +518,7 @@ Use case name: ORA_ShardedTable->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 3 ^
   -r 3 ^
@@ -559,7 +559,7 @@ Use case name: ORA_Subpartition_KeepSpoolFile->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -602,7 +602,7 @@ Use case name: ORA_Subpartition_Limit10->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -644,7 +644,7 @@ Use case name: ORA_Subpartition->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -685,7 +685,7 @@ Use case name: ORA_Table_KeepSpoolFile->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -726,7 +726,7 @@ Use case name: ORA_Table_Limit10->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -766,7 +766,7 @@ Use case name: ORA_TimestampTable->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^
@@ -805,7 +805,7 @@ Use case name: ORA_TimezoneTable->MYSQL
   -a[--to_table] is "Target table."
   -Z[--target_client_home] is "Path to mysql client home."	
 	Example: 
-	  echo y|c:\Python27\dm_dist_64\20141212_112917\dm64\dm64.exe ^
+	  echo y|c:\Python27\dm_dist_64\20141212_135017\dm64\dm64.exe ^
   -w ora2mysql ^
   -o 1 ^
   -r 1 ^

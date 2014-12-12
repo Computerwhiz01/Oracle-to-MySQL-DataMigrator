@@ -1,10 +1,10 @@
 
-c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_112917\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -c SCOTT.Date_test_from -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Date_test_to -Z "C:\Temp\mysql\bin" 
+c:\Python27\data_migrator_1239>echo y  | c:\Python27\dm_dist_32\20141212_135017\dm32\dm32.exe -w ora2mysql -o 1 -r 1 -t "|" -c SCOTT.Date_test_from -f SCOTT/tiger2@orcl -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -O "YYYY-MM-DD HH:MI:SS.FF2 TZH:TZM" -z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN" -u alex -p mysql_pwd -d test -s localhost -a Date_test_to -Z "C:\Temp\mysql\bin" 
 ora2mysql
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 11:29:17) [32bit]
+Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [32bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -24,28 +24,28 @@ From Oracle:
 		
 ####################
 Are you sure you want to proceed?(y/n): 
-c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_112951_792000\sql\get_table_info_SCOTT.Date_test_from..sql
-c:\Python27\DM_DIS~1\20D9E0~1\dm32\logs\20141212_112951_792000\sql\get_query_columns.sql
+c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135050_211000\sql\get_table_info_SCOTT.Date_test_from..sql
+c:\Python27\DM_DIS~1\205564~1\dm32\logs\20141212_135050_211000\sql\get_query_columns.sql
 Thread-0 (0, 5060L, 43)
 ############################################################
 Copy stats (1 threads, 1 shards):
 ############################################################
-2014-12-12 11:29:51,792 - #SaveUkraine - INFO - Fetching table info...
-2014-12-12 11:29:51,871 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:51,871 - #SaveUkraine - INFO - Fetching column info...
-2014-12-12 11:29:51,931 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:51,931 - #SaveUkraine - INFO - Starting Thread-0
-2014-12-12 11:29:51,931 - #SaveUkraine - INFO - Thread-0 processing Shard-0
-2014-12-12 11:29:51,982 - #SaveUkraine - INFO - Extracting data...
-2014-12-12 11:29:52,042 - #SaveUkraine - INFO - Done
-2014-12-12 11:29:52,042 - #SaveUkraine - INFO - Loading data...
+2014-12-12 13:50:50,226 - #CrimeaIsUkraine - INFO - Fetching table info...
+2014-12-12 13:50:50,303 - #CrimeaIsUkraine - INFO - Done.
+2014-12-12 13:50:50,303 - #CrimeaIsUkraine - INFO - Fetching column info...
+2014-12-12 13:50:50,819 - #CrimeaIsUkraine - INFO - Done.
+2014-12-12 13:50:50,819 - #CrimeaIsUkraine - INFO - Starting Thread-0
+2014-12-12 13:50:50,819 - #CrimeaIsUkraine - INFO - Thread-0 processing Shard-0
+2014-12-12 13:50:50,974 - #CrimeaIsUkraine - INFO - Extracting data...
+2014-12-12 13:50:51,038 - #CrimeaIsUkraine - INFO - Done
+2014-12-12 13:50:51,038 - #CrimeaIsUkraine - INFO - Loading data...
 Warning: Using a password on the command line interface can be insecure.
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - Done
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - spool file deleted.
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - Thread-0 exit status 0
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - Exiting Thread-0
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - Shard-0/0:          43 rows
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - TOTAL Bytes:        5060 Bytes
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - TOTAL Rows:           43 Rows
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - Done.
-2014-12-12 11:29:52,595 - #SaveUkraine - INFO - Elapsed: 00:00:00
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - Done
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - spool file deleted.
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - Thread-0 exit status 0
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - Exiting Thread-0
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - Shard-0/0:          43 rows
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - TOTAL Bytes:        5060 Bytes
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - TOTAL Rows:           43 Rows
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - Done.
+2014-12-12 13:50:51,240 - #CrimeaIsUkraine - INFO - Elapsed: 00:00:01
