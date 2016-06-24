@@ -1,11 +1,9 @@
 ##
 ##dm32.exe -h ALL 
 
----------------------------------------------------------------------- 
-#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
 Oracle to MySQL DataMigrator (v1.23.9, beta, 2014/12/12 13:50:17) [32bit]
-Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Copyright (c): 2014 Alex Buzunov, All rights reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
 From Oracle:
